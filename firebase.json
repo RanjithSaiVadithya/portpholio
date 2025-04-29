@@ -1,0 +1,19 @@
+{
+  "hosting": {
+    "site": "ranjithsaiv-portfolio",
+  "public": "yes",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+
+
+}
